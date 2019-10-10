@@ -11,11 +11,40 @@
 		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 	<title>Net do Brasil</title>
+	<style>
+	#menu ul{
+		padding: 0px;
+		margin: -20px 0px 0px 0px;
+		list-style: nome;
+		float: right;
+	}
+
+	#menu ul li {
+		display: inline;
+	}
+
+	#menu ul li a {
+		padding: 2px 10px;
+		display: inline-block;
+		background-color: black;
+		color: white;
+		text-decoration: nome;
+		border-bottom: 1px solid #ededed;
+	}
+	</style>
 </head>
 
 <body>
 	<header class="header" style="background-color: black; min-height: 70px;">
 		<img src="logo-net.png" style=" height:50px; margin:10px 0 0 50px;  ">
+		<nav id="menu">
+			<ul>
+				<li><a href="#inicio">inicio</a></li>
+				<li><a href="#intitucional">intitucional</a></li>
+				<li><a href="#produtos">produtos</a></li>
+				<li><a href="#contato">contato</a></li>
+			</ul>
+		</nav>
 	</header>
 	<div style="background-image:url(2083.jpg);
 	            height:60vh;
